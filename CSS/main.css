@@ -84,6 +84,23 @@ table {
 	padding: 15px;
 }
 
+#orange-square {
+	width: 33.33%;
+	height: 350px;
+	background-color: orange;
+}
+
+#blue-square {
+	width: 33.33%;
+	height: 350px;
+	background-color: blue;
+}
+
+#red-square {
+	width: 33.33%;
+	height: 350px;
+	background-color: red;
+}
 
 /* CSS for Paul's Smiley */
 
