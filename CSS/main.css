@@ -4,7 +4,9 @@ html body {
 	letter-spacing: 1.1px;
 }
 
-
+h2 {
+	color: red;
+}
 
 h3 {
 	color: blue;
@@ -30,6 +32,25 @@ a:hover {
 	color: orange;
 }
 
+.main {
+	margin-left: 55px;
+}
+
+.about-me {
+	margin-left: 55px;
+}
+
+.resources {
+	margin-left: 55px;
+}
+
+.section {
+	text-align: center;
+}
+
+.footer {
+	margin-left: 55px;
+}
 
 .btn {
 	background-color: black;
@@ -40,9 +61,6 @@ a:hover {
 	display: inline-block;
 }
 
-.section {
-	text-align: center;
-}
 
 table {
 	width: 100%;
@@ -61,13 +79,23 @@ table {
 
 }
 
-<!--CSS for smiley face-->
+.nav ul li {
+	display: inline-block;
+	padding: 15px;
+}
+
+
+/* CSS for Paul's Smiley */
+
+
+
 .face{
   width:75px;
   height:75px; 
   border:solid 2px black;
   background-color: yellow; 
   border-radius: 50px;
+  
 }
 
 .lefteye{
@@ -77,6 +105,7 @@ table {
   border-radius:3px;
   z-index: 1;
   position:relative;
+  
   left:32px;
   top: 26px;
   background-color:black;
@@ -88,6 +117,7 @@ table {
   border:solid 1px white;
   border-radius:2px;
   position:relative;
+ 
   left:2px;
   top: 2px;
   background-color:white
@@ -100,6 +130,7 @@ table {
   border-radius:3px;
   z-index:1;
   position:relative;
+  
   left:54px;
   top:18px;
   background-color:black
@@ -112,6 +143,7 @@ table {
   border-radius:3px;
   z-index:1;
   position:relative;
+  
   left:2px;
   top:2px;
   background-color:white
@@ -124,6 +156,7 @@ table {
   border-radius:0px 0px 45px 45px; /*Adjust this to change expression*/
   margin:16px;
   position:relative;
+  
   top:1em;
   left:1em;
   background-color:black;
@@ -133,6 +166,7 @@ table {
   width: 7px;
   background-color:black;
   position:relative;
+  
   left:0px;
   bottom:8px;
 }
@@ -145,6 +179,7 @@ table {
   border-radius:2px;
   color:#FFFFFF;
   position:relative;
+  
 }
 .goatee{
   width: 0px;
@@ -158,4 +193,3 @@ table {
   top: 2px;
 }
 
-/*
